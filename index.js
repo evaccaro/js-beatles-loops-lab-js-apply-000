@@ -22,4 +22,3 @@ function iLoveTheBeatles(num){
   }
   return answer;
 }
-
