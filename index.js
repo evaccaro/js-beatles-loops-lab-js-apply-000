@@ -19,10 +19,11 @@ function iLoveTheBeatles(num){
 var answer = [];
   if(num === 17){
     return answer.push('I love the Beatles!');
-  }
+  } else {
 
   for(var i = 0; i <= num; i++){
     answer.push('I love the Beatles!');
   }
   return answer;
+}
 }
