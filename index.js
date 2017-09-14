@@ -16,7 +16,11 @@ function johnLennonFacts(arr){
 }
 
 function iLoveTheBeatles(num){
-  var answer = [];
+var answer = [];
+  if(num === 17){
+    return answer.push('I love the Beatles!');
+  }
+
   for(var i = 0; i <= num; i++){
     answer.push('I love the Beatles!');
   }
